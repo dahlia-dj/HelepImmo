@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Helep Immo</string>
+    <string name="title_activity_login">Connexion</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="action_sign_in">Se connecter</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="inscription">Vous n\'avez pas de compte? Creez-en un.</string>
+    <string name="welcome">"Bienvenue!"</string>
+    <string name="invalid_username">Email non valide</string>
+    <string name="invalid_password">Le mot de passe doit avoir plus de 5 caracteres</string>
+    <string name="name_form">INSCRIPTION</string>
+    <string name="name">Nom</string>
+    <string name="surname">Prenom</string>
+    <string name="user">Nom d\'utilisateur</string>
+    <string name="confirmation_mdp">Confirmer votre mot de passe</string>
+    <string name="phone">Telephone</string>
+    <string name="create_account">"Enregistrer</string>
+    <string name="cancel">Annuler</string>
+    <string name="login_failed">Connexion échouée</string>
+</resources>
