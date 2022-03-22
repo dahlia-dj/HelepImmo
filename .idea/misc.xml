@@ -3,24 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1890625" />
-        <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1890625" />
-        <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/drawable/shape.xml" value="0.1890625" />
-        <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/drawable/shape_button.xml" value="0.1890625" />
-        <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/drawable/shape_location.xml" value="0.19375" />
-        <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.10785619174434088" />
-        <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/layout-w936dp/activity_login.xml" value="0.1265625" />
-        <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/layout/activity_acceuil.xml" value="0.15" />
-        <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/layout/activity_formulaire.xml" value="0.22" />
-        <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/layout/activity_login.xml" value="0.22" />
-        <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="app/src/main/res/drawable/ic_baseline_house_24.xml" value="0.313" />
+        <entry key="app/src/main/res/drawable/shape_location.xml" value="0.313" />
+        <entry key="app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1355421686746988" />
+        <entry key="app/src/main/res/layout/activity_acceuil.xml" value="0.2109375" />
+        <entry key="app/src/main/res/layout/activity_formulaire.xml" value="0.2109375" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2109375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2109375" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/build/classes" />
-  </component>
-  <component name="ProjectType">
-    <option name="id" value="Android" />
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
