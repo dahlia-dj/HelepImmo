@@ -1,4 +1,4 @@
-package com.djoumessi.progmobile.helepimmo.data.model;
+package com.djoumessi.progmobile.helepimmo.login.data.model;
 
 /**
  * Data class that captures user information for logged in users retrieved from LoginRepository

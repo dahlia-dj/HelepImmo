@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelepImmo">
         <activity
-            android:name=".Acceuil"
+            android:name=".acceuil.Acceuil"
             android:exported="false" />
         <activity
-            android:name=".Formulaire"
+            android:name=".formulaire.Formulaire"
             android:exported="false" />
         <activity
-            android:name=".ui.login.Login"
+            android:name=".login.ui.Login"
             android:exported="false"
             android:label="@string/title_activity_login" />
         <activity

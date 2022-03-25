@@ -12,7 +12,7 @@ public class ApiUtil {
     public static final String DEFAULT_LIMIT = "100";
     public static final String ALWAYS_TRUE_FILTER = "1=1";
 
-    public static CategoryRequests getBookingService(){
+    public static CategoryRequests getCategoryService(){
         return RetrofitClient.getClient(API_URL).create(CategoryRequests.class);
     }
 
@@ -22,5 +22,9 @@ public class ApiUtil {
 
     public static ThirdPartyRequests getThirdPartyService(){
         return RetrofitClient.getClient(API_URL).create(ThirdPartyRequests.class);
+    }
+
+    public static ImageRequests getImageService(){
+        return RetrofitClient.getClient(API_URL).create(ImageRequests.class);
     }
 }

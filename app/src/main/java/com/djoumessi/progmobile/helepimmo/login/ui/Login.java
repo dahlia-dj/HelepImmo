@@ -1,4 +1,4 @@
-package com.djoumessi.progmobile.helepimmo.ui.login;
+package com.djoumessi.progmobile.helepimmo.login.ui;
 
 import android.app.Activity;
 
@@ -18,17 +18,13 @@ import android.text.TextWatcher;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
-import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.djoumessi.progmobile.helepimmo.Formulaire;
+import com.djoumessi.progmobile.helepimmo.formulaire.Formulaire;
 import com.djoumessi.progmobile.helepimmo.R;
-import com.djoumessi.progmobile.helepimmo.ui.login.LoginViewModel;
-import com.djoumessi.progmobile.helepimmo.ui.login.LoginViewModelFactory;
 import com.djoumessi.progmobile.helepimmo.databinding.ActivityLoginBinding;
 
 public class Login extends AppCompatActivity {

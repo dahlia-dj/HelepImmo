@@ -1,4 +1,4 @@
-package com.djoumessi.progmobile.helepimmo.ui.login;
+package com.djoumessi.progmobile.helepimmo.login.ui;
 
 import androidx.annotation.Nullable;
 

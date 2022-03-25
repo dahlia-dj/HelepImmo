@@ -1,6 +1,6 @@
-package com.djoumessi.progmobile.helepimmo.data;
+package com.djoumessi.progmobile.helepimmo.login.data;
 
-import com.djoumessi.progmobile.helepimmo.data.model.LoggedInUser;
+import com.djoumessi.progmobile.helepimmo.login.data.model.LoggedInUser;
 
 /**
  * Class that requests authentication and user information from the remote data source and

@@ -1,6 +1,7 @@
 package com.djoumessi.progmobile.helepimmo.common.remote;
 
 import com.djoumessi.progmobile.helepimmo.common.Category;
+import com.djoumessi.progmobile.helepimmo.common.ThirdParty;
 
 import java.util.List;
 
@@ -25,12 +26,11 @@ public interface ThirdPartyRequests {
             "Accept: application/json",
             "DOLAPIKEY: BZrYbf453vn46SR3zAjJpx4V6P17cIiI"
     })
-    @GET("categories")
-    Call<List<Category>> getCategories(
+    @GET("thirdparties")
+    Call<List<ThirdParty>> getThirdParties(
             @Query(value = "sortfield") String sortfield,
             @Query(value = "sortorder") String sortorder,
-            @Query(value = "limit") String limit,
-            @Query(value = "sqlfilters") String sqlFilter
+            @Query(value = "limit") String limit
 
     );
 
@@ -38,8 +38,8 @@ public interface ThirdPartyRequests {
             "Accept: application/json",
             "DOLAPIKEY: BZrYbf453vn46SR3zAjJpx4V6P17cIiI"
     })
-    @GET("categories/{id}")
-    Call<Category> getCategory(
+    @GET("thirdparties/{id}")
+    Call<ThirdParty> getThirdParty(
             @Path(value = "id") String id
     );
 }

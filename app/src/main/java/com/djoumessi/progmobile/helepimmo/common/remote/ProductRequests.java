@@ -1,6 +1,7 @@
 package com.djoumessi.progmobile.helepimmo.common.remote;
 
 import com.djoumessi.progmobile.helepimmo.common.Category;
+import com.djoumessi.progmobile.helepimmo.common.Product;
 
 import java.util.List;
 
@@ -25,12 +26,24 @@ public interface ProductRequests {
             "Accept: application/json",
             "DOLAPIKEY: BZrYbf453vn46SR3zAjJpx4V6P17cIiI"
     })
-    @GET("categories")
-    Call<List<Category>> getCategories(
+    @GET("products")
+    Call<List<Product>> getProducts(
+            @Query(value = "sortfield") String sortfield,
+            @Query(value = "sortorder") String sortorder,
+            @Query(value = "limit") String limit
+    );
+
+    @Headers({
+            "Accept: application/json",
+            "DOLAPIKEY: BZrYbf453vn46SR3zAjJpx4V6P17cIiI"
+    })
+    @GET("products")
+    Call<List<Product>> getProducts(
             @Query(value = "sortfield") String sortfield,
             @Query(value = "sortorder") String sortorder,
             @Query(value = "limit") String limit,
-            @Query(value = "sqlfilters") String sqlFilter
+            @Query(value = "sqlfilters") String sqlfilters,
+            @Query(value = "ids_only") String ids_only
 
     );
 
@@ -38,8 +51,19 @@ public interface ProductRequests {
             "Accept: application/json",
             "DOLAPIKEY: BZrYbf453vn46SR3zAjJpx4V6P17cIiI"
     })
-    @GET("categories/{id}")
-    Call<Category> getCategory(
+    @GET("products/{id}")
+    Call<Product> getProduct(
             @Path(value = "id") String id
+    );
+
+    @Headers({
+            "Accept: application/json",
+            "DOLAPIKEY: BZrYbf453vn46SR3zAjJpx4V6P17cIiI"
+    })
+    @GET("products/{id}/categories")
+    Call<List<Category>> getCategories(
+            @Path(value = "id") String id,
+            @Query(value = "sortfield") String sortfield,
+            @Query(value = "sortorder") String sortorder
     );
 }

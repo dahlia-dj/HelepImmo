@@ -1,11 +1,11 @@
-package com.djoumessi.progmobile.helepimmo.ui.login;
+package com.djoumessi.progmobile.helepimmo.login.ui;
 
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.annotation.NonNull;
 
-import com.djoumessi.progmobile.helepimmo.data.LoginDataSource;
-import com.djoumessi.progmobile.helepimmo.data.LoginRepository;
+import com.djoumessi.progmobile.helepimmo.login.data.LoginDataSource;
+import com.djoumessi.progmobile.helepimmo.login.data.LoginRepository;
 
 /**
  * ViewModel provider factory to instantiate LoginViewModel.

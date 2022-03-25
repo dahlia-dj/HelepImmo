@@ -1,6 +1,7 @@
 package com.djoumessi.progmobile.helepimmo.common.remote;
 
 import com.djoumessi.progmobile.helepimmo.common.Category;
+import com.djoumessi.progmobile.helepimmo.common.Product;
 
 import java.util.List;
 
@@ -43,5 +44,15 @@ public interface CategoryRequests {
     @GET("categories/{id}")
     Call<Category> getCategory(
             @Path(value = "id") String id
+    );
+
+    @Headers({
+            "Accept: application/json",
+            "DOLAPIKEY: BZrYbf453vn46SR3zAjJpx4V6P17cIiI"
+    })
+    @GET("categories/{id}/objects")
+    Call<List<Product>> getProducts(
+            @Path(value = "id") String id,
+            @Path(value = "type") String type
     );
 }

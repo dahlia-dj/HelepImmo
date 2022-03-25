@@ -1,4 +1,4 @@
-package com.djoumessi.progmobile.helepimmo.ui.login;
+package com.djoumessi.progmobile.helepimmo.login.ui;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -6,9 +6,9 @@ import androidx.lifecycle.ViewModel;
 
 import android.util.Patterns;
 
-import com.djoumessi.progmobile.helepimmo.data.LoginRepository;
-import com.djoumessi.progmobile.helepimmo.data.Result;
-import com.djoumessi.progmobile.helepimmo.data.model.LoggedInUser;
+import com.djoumessi.progmobile.helepimmo.login.data.LoginRepository;
+import com.djoumessi.progmobile.helepimmo.login.data.Result;
+import com.djoumessi.progmobile.helepimmo.login.data.model.LoggedInUser;
 import com.djoumessi.progmobile.helepimmo.R;
 
 public class LoginViewModel extends ViewModel {
