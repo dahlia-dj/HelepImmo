@@ -1,11 +1,12 @@
 
 package com.djoumessi.progmobile.helepimmo.common;
 
+import java.io.Serializable;
 import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Category {
+public class Category implements Serializable {
 
     @SerializedName("fk_parent")
     @Expose

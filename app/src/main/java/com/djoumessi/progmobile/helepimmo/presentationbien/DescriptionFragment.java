@@ -35,7 +35,9 @@ public class DescriptionFragment extends Fragment {
 
         viewModel.getProduct().observe(getViewLifecycleOwner(), product -> {
             if (product!=null){
-                binding.location.setText(product.get);
+                binding.area.setText(product.getSurface());
+                binding.price.setText(product.getPrice().substring(0,product.getPrice().indexOf(".")));
+                binding.description.setText(product.getDescription());
             }
         });
     }

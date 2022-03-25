@@ -5,6 +5,7 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.GridLayoutManager;
 
 import android.os.Bundle;
+import android.widget.GridLayout;
 
 import com.djoumessi.progmobile.helepimmo.R;
 import com.djoumessi.progmobile.helepimmo.databinding.ActivityAcceuilBinding;

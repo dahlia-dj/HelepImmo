@@ -1,142 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="Localisation:"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="140dp"
-        tools:ignore="MissingConstraints" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:padding="5dp"
         android:text="Superficie:"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="185dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Prix:"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="230dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="Nombre de pieces:"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="275dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="Nombre de chambre:"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="320dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="Nombre de salle de bain:"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="365dp"
-        tools:ignore="MissingConstraints" />
-    <TextView
-        android:id="@+id/location"
-        android:layout_width="218dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="12dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="140dp" />
+        android:layout_weight="2" />
 
     <TextView
         android:id="@+id/area"
-        android:layout_width="218dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="12dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="185dp" />
+        android:layout_weight="3" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Prix:"
+        android:layout_weight="2"
+        android:padding="5dp"
+        />
 
     <TextView
         android:id="@+id/price"
-        android:layout_width="218dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="12dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:text="TextView"
+        android:padding="5dp"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="230dp" />
+        android:layout_weight="3" />
 
-    <TextView
-        android:id="@+id/rooms"
-        android:layout_width="218dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="12dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="320dp" />
-
-    <TextView
-        android:id="@+id/bathrooms"
-        android:layout_width="218dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="12dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="365dp" />
-
-    <TextView
-        android:id="@+id/bedrooms"
-        android:layout_width="218dp"
-        android:layout_height="0dp"
-        android:text="TextView"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="181dp"
-        tools:layout_editor_absoluteY="275dp" />
+</LinearLayout>
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Description détaillée"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="410dp"
-        tools:ignore="MissingConstraints" />
-
-
+        android:text="Description détaillée:"
+        android:padding="5dp"
+        />
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/description"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="441dp" />
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:lines="8"
+        android:maxLines="8"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
