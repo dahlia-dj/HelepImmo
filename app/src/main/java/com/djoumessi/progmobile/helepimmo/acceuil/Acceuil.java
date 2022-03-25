@@ -2,6 +2,7 @@ package com.djoumessi.progmobile.helepimmo.acceuil;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.GridLayoutManager;
 
 import android.os.Bundle;
 
@@ -37,6 +38,7 @@ public class Acceuil extends AppCompatActivity {
         viewModel.getCategories().observe(this, categories -> {
             if (categories!=null){
                 homeAdapter = new HomeAdapter(categories);
+                binding.gridLayout.setLayoutManager(new GridLayoutManager(this, 3 ));
                 binding.gridLayout.setAdapter(homeAdapter);
             }
         });

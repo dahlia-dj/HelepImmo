@@ -1,6 +1,7 @@
 package com.djoumessi.progmobile.helepimmo.acceuil;
 
 import android.content.Intent;
+import android.content.res.ColorStateList;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.util.Base64;
@@ -62,7 +63,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
         String str = "";
         if (len == 1) {
             str  = 0 + "" + category.getId();
-        }
+        }else
         {
             str =  v.substring(len - 2, len - 1) + v.substring(len - 1);
         }
@@ -76,8 +77,9 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
                     byte[] imageBytes = Base64.decode(image.getContent(), Base64.DEFAULT);
                     Bitmap imageBitmap = BitmapFactory.decodeByteArray(imageBytes, 0, imageBytes.length);
                     holder.logo.setImageBitmap(imageBitmap);
+//                    holder.logo.setTint(ColorStateList.valueOf(R.color.colorPrimary));
                 } else {
-                    Log.e("J-Purple", "HomeAdapter::onResponse: is not successful with error ={"+response.errorBody()+"}" );
+                    Log.e("J-Purple", "HomeAdapter::onResponse: is not successful with error ={"+response.raw()+"}" );
                 }
             }
 

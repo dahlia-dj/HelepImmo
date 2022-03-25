@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Formulaire_Insertion">
+    tools:context=".FormulaireInsertion">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -22,7 +22,7 @@
         android:layout_marginTop="10dp"
         android:text="Formulaire d'insertion"
         android:textAlignment="center"
-        android:layout_marginStart="40"
+        android:layout_marginStart="40dp"
         android:textColor="@color/white"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"

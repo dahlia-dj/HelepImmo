@@ -4,7 +4,7 @@ public class ApiUtil {
     private ApiUtil(){
 
     };
-    private static final String API_URL = "https://helepimmo.commeduc.com/api/index.php/explorer/";
+    private static final String API_URL = "https://helepimmo.commeduc.com/api/index.php/";
     private static final String GOOGLE_URL = "https://google.com";
     public static final String DEFAULT_SORT_FIELD = "t.rowid";
     public static final String DEFAULT_SORT_FIELD_ALT = "t.id";

@@ -23,6 +23,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.djoumessi.progmobile.helepimmo.ChooseProfileType;
 import com.djoumessi.progmobile.helepimmo.formulaire.Formulaire;
 import com.djoumessi.progmobile.helepimmo.R;
 import com.djoumessi.progmobile.helepimmo.databinding.ActivityLoginBinding;
@@ -139,6 +140,8 @@ public class Login extends AppCompatActivity {
         String welcome = getString(R.string.welcome) + model.getDisplayName();
         // TODO : initiate successful logged in experience
         Toast.makeText(getApplicationContext(), welcome, Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(Login.this, ChooseProfileType.class);
+        startActivity(intent);
     }
 
     private void showLoginFailed(@StringRes Integer errorString) {

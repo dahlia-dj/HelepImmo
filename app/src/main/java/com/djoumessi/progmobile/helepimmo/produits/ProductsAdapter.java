@@ -1,15 +1,13 @@
 package com.djoumessi.progmobile.helepimmo.produits;
 
 import android.content.Intent;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.djoumessi.progmobile.helepimmo.InfoSurProduit;
-import com.djoumessi.progmobile.helepimmo.R;
+import com.djoumessi.progmobile.helepimmo.presentationbien.PresentationBien;
 import com.djoumessi.progmobile.helepimmo.common.Product;
 
 import java.io.Serializable;
@@ -35,7 +33,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.ViewHo
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent  = new Intent(holder.itemView.getContext(), InfoSurProduit.class);
+                Intent intent  = new Intent(holder.itemView.getContext(), PresentationBien.class);
                 intent.putExtra("product_id", (Serializable) product);
                 holder.itemView.getContext().startActivity(intent);
             }

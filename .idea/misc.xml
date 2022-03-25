@@ -8,11 +8,18 @@
         <entry key="app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1355421686746988" />
         <entry key="app/src/main/res/layout/activity_acceuil.xml" value="0.2109375" />
         <entry key="app/src/main/res/layout/activity_formulaire.xml" value="0.2109375" />
+        <entry key="app/src/main/res/layout/activity_formulaire_insertion.xml" value="0.2109375" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.2109375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2109375" />
+        <entry key="app/src/main/res/layout/activity_presentation_bien.xml" value="0.2109375" />
         <entry key="app/src/main/res/layout/activity_produits.xml" value="0.41041666666666665" />
+        <entry key="app/src/main/res/layout/activity_userprofil.xml" value="0.2109375" />
         <entry key="app/src/main/res/layout/category_item.xml" value="0.41041666666666665" />
+        <entry key="app/src/main/res/layout/contact_proprio.xml" value="0.2109375" />
+        <entry key="app/src/main/res/layout/desciption_bien.xml" value="0.2109375" />
+        <entry key="app/src/main/res/layout/description_bien.xml" value="0.41041666666666665" />
         <entry key="app/src/main/res/layout/home_item.xml" value="0.41041666666666665" />
+        <entry key="app/src/main/res/layout/photos_bien.xml" value="0.2109375" />
       </map>
     </option>
   </component>

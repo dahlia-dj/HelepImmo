@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class userprofil extends AppCompatActivity {
+public class FormulaireInsertion extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_userprofil);
+        setContentView(R.layout.activity_formulaire_insertion);
     }
 }

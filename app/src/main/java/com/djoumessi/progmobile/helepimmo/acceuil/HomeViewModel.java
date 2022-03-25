@@ -17,16 +17,19 @@ import retrofit2.Response;
 
 public class HomeViewModel extends ViewModel {
     private MutableLiveData<List<Category>> categories = new MutableLiveData<>();
+    private String type = "2";
 
     public LiveData<List<Category>> getCategories() {
+        loadCategories();
         return categories;
     }
 
     public void setType(String type){
-        loadCategories(type);
+        this.type = type;
+        loadCategories();
     }
 
-    private void loadCategories(String type) {
+    private void loadCategories() {
         String sql_filter = "t.fk_parent="+type;
         Call<List<Category>> requestForCategories = ApiUtil.getCategoryService().getCategories("t.rowid", "ASC", "100", ""+sql_filter);
         Callback<List<Category>> onReturnedCategories = new Callback<List<Category>>() {
@@ -35,7 +38,7 @@ public class HomeViewModel extends ViewModel {
                 if (response.isSuccessful()){
                     categories.postValue(response.body());
                 } else {
-                    Log.e("J-Purple", "HomeViewModel::onResponse: not successful with error ={"+response.errorBody()+"}");
+                    Log.e("J-Purple", "HomeViewModel::onResponse: not successful with error ={"+response.raw()+"}");
                 }
             }
 
