@@ -52,7 +52,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(holder.itemView.getContext(), Produits.class);
-                intent.putExtra("category_id", ""+category.getId());
+                intent.putExtra("category_id", category);
 //                intent.putExtra("type", ""+categories.get(holder.getAdapterPosition()).getFkParent());
                 holder.itemView.getContext().startActivity(intent);
             }

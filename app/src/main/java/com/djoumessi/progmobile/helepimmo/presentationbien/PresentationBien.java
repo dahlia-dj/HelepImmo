@@ -21,9 +21,13 @@ public class PresentationBien extends AppCompatActivity {
         binding = ActivityPresentationBienBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         viewModel = new ViewModelProvider(this).get(ProductInfoViewModel.class);
-        product = (Product)getIntent().getSerializableExtra("product");
+        product = (Product)getIntent().getSerializableExtra("product_id");
         viewModel.setProduct(product);
 
+        binding.toolbarName.setText(product.getLabel());
+
+        binding.viewPager.setAdapter(new ProductInfoViewPager(getSupportFragmentManager()));
+        binding.tabLayout.setupWithViewPager(binding.viewPager);
     }
 
     public void finish(View view) {

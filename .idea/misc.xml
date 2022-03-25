@@ -19,7 +19,9 @@
         <entry key="app/src/main/res/layout/desciption_bien.xml" value="0.2109375" />
         <entry key="app/src/main/res/layout/description_bien.xml" value="0.41041666666666665" />
         <entry key="app/src/main/res/layout/home_item.xml" value="0.41041666666666665" />
+        <entry key="app/src/main/res/layout/photo_item.xml" value="0.41041666666666665" />
         <entry key="app/src/main/res/layout/photos_bien.xml" value="0.2109375" />
+        <entry key="app/src/main/res/layout/product_item.xml" value="0.41041666666666665" />
       </map>
     </option>
   </component>

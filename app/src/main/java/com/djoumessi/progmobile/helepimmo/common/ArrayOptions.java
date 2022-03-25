@@ -4,7 +4,9 @@ package com.djoumessi.progmobile.helepimmo.common;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class ArrayOptions {
+import java.io.Serializable;
+
+public class ArrayOptions implements Serializable {
 
     @SerializedName("options_owner")
     @Expose

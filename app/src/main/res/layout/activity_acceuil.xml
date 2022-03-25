@@ -98,14 +98,13 @@
                 android:id="@+id/gridLayout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:columnCount="2"
+                android:columnCount="3"
                 android:orientation="vertical"
                 android:rowCount="3"
                 android:rowOrderPreserved="false"
-                android:useDefaultMargins="true">
-
-
-            </androidx.recyclerview.widget.RecyclerView>
+                android:useDefaultMargins="true"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                tools:listitem="@layout/category_item"/>
 
         </LinearLayout>
 

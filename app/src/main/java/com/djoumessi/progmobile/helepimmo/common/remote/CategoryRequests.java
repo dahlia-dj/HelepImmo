@@ -53,6 +53,6 @@ public interface CategoryRequests {
     @GET("categories/{id}/objects")
     Call<List<Product>> getProducts(
             @Path(value = "id") String id,
-            @Path(value = "type") String type
+            @Query(value = "type") String type
     );
 }
