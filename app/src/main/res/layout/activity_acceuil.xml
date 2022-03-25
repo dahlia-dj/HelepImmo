@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Acceuil">
+    tools:context=".acceuil.Acceuil">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -62,46 +62,50 @@
 
             </LinearLayout>
 
-            <LinearLayout
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:id="@+id/toggleButton"
+                android:layout_marginTop="100dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="100dp"
-                >
+                app:checkedButton="@+id/location"
+                app:selectionRequired="true"
+                android:orientation="horizontal"
+                app:singleSelection="true">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
+                <Button
+                    android:id="@+id/location"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:layout_weight="1"
+                    android:tag="2"
+                    android:text="Location"
+                    />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_weight="1"
-                        android:layout_gravity="center"
-                        android:gravity="center">
+                <Button
+                    android:id="@+id/vente"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tag="1"
+                    android:text="Vente"
+                    />
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/ic_baseline_house_24"
+            </com.google.android.material.button.MaterialButtonToggleGroup>
 
-                        </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/gridLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnCount="2"
+                android:orientation="vertical"
+                android:rowCount="3"
+                android:rowOrderPreserved="false"
+                android:useDefaultMargins="true">
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
 
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </LinearLayout>
+            </androidx.recyclerview.widget.RecyclerView>
 
         </LinearLayout>
 

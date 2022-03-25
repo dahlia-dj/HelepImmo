@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.djoumessi.progmobile.helepimmo">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,13 +12,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelepImmo">
         <activity
-            android:name=".Acceuil"
+            android:name=".acceuil.Acceuil"
             android:exported="false" />
         <activity
-            android:name=".Formulaire"
+            android:name=".ChooseProfileType"
             android:exported="false" />
         <activity
-            android:name=".ui.login.Login"
+            android:name=".produits.Produits"
+            android:exported="false" />
+        <activity
+            android:name=".FormulaireInsertion"
+            android:exported="false" />
+        <activity
+            android:name=".presentationbien.PresentationBien"
+            android:exported="false" />
+        <activity
+            android:name=".formulaire.Formulaire"
+            android:exported="false" />
+        <activity
+            android:name=".login.ui.Login"
             android:exported="false"
             android:label="@string/title_activity_login" />
         <activity

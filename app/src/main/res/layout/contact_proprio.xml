@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/ic_baseline_person_24"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="115dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/ic_baseline_email_24"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+
+        app:srcCompat="@drawable/ic_baseline_location_on_24"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/ic_baseline_insert_comment_24"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/ic_baseline_local_phone_24"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="530dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="195dp"
+        android:layout_height="50dp"
+        android:text="Nom et prenom du propriétaire"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="195dp"
+        android:layout_height="50dp"
+        android:text="Email du propriétaire"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="195dp"
+        android:layout_height="50dp"
+        android:text="Numero de telephone du proprio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.754"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="195dp"
+        android:layout_height="50dp"
+        android:text="Adresse du propriétaire"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

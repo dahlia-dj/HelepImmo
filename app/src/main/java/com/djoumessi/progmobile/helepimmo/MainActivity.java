@@ -7,7 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.djoumessi.progmobile.helepimmo.ui.login.Login;
+import com.djoumessi.progmobile.helepimmo.formulaire.Formulaire;
+import com.djoumessi.progmobile.helepimmo.login.ui.Login;
 
 public class MainActivity extends AppCompatActivity {
      private Button connexion , register;
