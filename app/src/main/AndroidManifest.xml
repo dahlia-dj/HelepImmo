@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelepImmo">
         <activity
+            android:name=".presentation_bien"
+            android:exported="false" />
+        <activity
             android:name=".Formulaire_Insertion"
             android:exported="false" />
         <activity
