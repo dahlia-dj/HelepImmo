@@ -3,17 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.19375" />
         <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1890625" />
+        <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/drawable/ic_baseline_landscape_24.xml" value="0.19375" />
+        <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.19375" />
         <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1890625" />
+        <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/drawable/ic_baseline_single_bed_24.xml" value="0.19375" />
         <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/drawable/shape.xml" value="0.1890625" />
         <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/drawable/shape_button.xml" value="0.1890625" />
         <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/drawable/shape_location.xml" value="0.19375" />
         <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.10785619174434088" />
         <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/layout-w936dp/activity_login.xml" value="0.1265625" />
-        <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/layout/activity_acceuil.xml" value="0.15" />
+        <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/layout/activity_acceuil.xml" value="0.2" />
         <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/layout/activity_formulaire.xml" value="0.22" />
+        <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/layout/activity_formulaire_insertion.xml" value="0.22" />
         <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/layout/activity_userprofil.xml" value="0.22" />
+        <entry key="..\:/Users/DELLWORK/AndroidStudioProjects/HelepImmo/app/src/main/res/layout/toolbar.xml" value="0.1734375" />
       </map>
     </option>
   </component>
